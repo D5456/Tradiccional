@@ -1,0 +1,24 @@
+.contenedor {
+    display: flex;
+    justify-content: space-between; /* Coloca el contenido al principio y al final del contenedor */
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 20px; /* Añade espaciado alrededor del contenido */
+  }
+  
+  .texto {
+    flex: 1; /* Permite que el texto tome todo el espacio disponible */
+    padding: 10px; /* Añade espaciado alrededor del texto */
+  }
+  
+  .imagenes {
+    flex: 1; /* Permite que las imágenes tomen todo el espacio disponible */
+    display: flex;
+    justify-content: space-between; /* Espacia las imágenes horizontalmente */
+  }
+  
+  .imagenes img {
+    max-width: 100%; /* Ajusta el tamaño máximo de las imágenes para evitar que se desborden del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    margin-right: 10px; /* Añade un margen a la derecha de cada imagen */
+  }
+  
