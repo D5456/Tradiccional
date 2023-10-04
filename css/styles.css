@@ -613,9 +613,14 @@ progress {
 
 .img-fluid {
   width: 500px;
-  height: 400px;
+    height: 400px;
 }
-
+/* Estilos para imágenes ajustadas */
+.img-ajustada {
+  max-width: 100%; /* Ancho máximo del 100% del contenedor padre */
+  height: auto; /* Altura automática para mantener la proporción */
+  width: 450px; /* Ancho máximo deseado para todas las imágenes */
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
